@@ -5,20 +5,20 @@ const Projects = () => {
     {
       number: '01',
       title: 'Student Management System',
-      tech: ['React', 'Django'],
-      description: 'A comprehensive web application for managing student records with full CRUD functionality and intuitive interface.'
+      tech: ['React', 'Django', 'PostgreSQL'],
+      description: 'A comprehensive full-stack web application for managing student records with complete CRUD functionality, authentication, and an intuitive admin dashboard for educational institutions.'
     },
     {
       number: '02',
-      title: 'Portfolio Website',
-      tech: ['React', 'Vite'],
-      description: 'A modern, responsive portfolio showcasing projects and skills with clean minimal design.'
+      title: 'Professional Portfolio Website',
+      tech: ['React', 'Vite', 'CSS3'],
+      description: 'A modern, fully responsive portfolio website showcasing projects and skills with smooth animations, dark theme, and optimized performance for web and mobile devices.'
     },
     {
       number: '03',
       title: 'Cross-Platform Mobile App',
-      tech: ['React Native'],
-      description: 'A native mobile application built for both Android and iOS platforms with seamless user experience.'
+      tech: ['React Native', 'Firebase'],
+      description: 'A native mobile application built with React Native, delivering seamless user experience across both Android and iOS platforms with real-time data synchronization.'
     }
   ];
 
@@ -26,8 +26,8 @@ const Projects = () => {
     <section className="projects" id="projects">
       <div className="projects-container">
         <div className="projects-header">
-          <span className="section-label">Portfolio</span>
-          <h2 className="section-title">Featured Projects</h2>
+          <span className="section-label">Featured Work</span>
+          <h2 className="section-title">Projects & Case Studies</h2>
         </div>
         <div className="projects-list">
           {projects.map((project, index) => (

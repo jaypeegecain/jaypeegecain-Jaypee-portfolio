@@ -2,20 +2,20 @@ import React from 'react';
 
 const TechStack = () => {
   const skills = [
-    { name: 'HTML', level: 90 },
-    { name: 'CSS', level: 85 },
-    { name: 'JavaScript', level: 85 },
-    { name: 'React', level: 80 },
-    { name: 'Django', level: 75 },
-    { name: 'React Native', level: 70 }
+    { name: 'HTML5', level: 95 },
+    { name: 'CSS3', level: 90 },
+    { name: 'JavaScript', level: 90 },
+    { name: 'React', level: 85 },
+    { name: 'Django', level: 80 },
+    { name: 'React Native', level: 75 }
   ];
 
   return (
     <section className="tech-stack" id="skills">
       <div className="skills-container">
         <div className="skills-header">
-          <span className="section-label">Skills</span>
-          <h2 className="section-title">Technologies I work with</h2>
+          <span className="section-label">Technical Expertise</span>
+          <h2 className="section-title">Technologies & Tools</h2>
         </div>
         <div className="skills-grid">
           {skills.map((skill, index) => (

@@ -10,7 +10,7 @@ const Hero = () => {
           <p className="title">Frontend & Mobile Developer</p>
           <p className="description">
             I craft clean, user-focused digital experiences with modern technologies.
-            Specializing in React, Django, and React Native.
+            Specializing in React, Django, and React Native for web and mobile platforms.
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">
